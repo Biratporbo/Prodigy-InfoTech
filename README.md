@@ -33,7 +33,6 @@ Throughout this internship, I was tasked with bridging the gap between theoretic
 | :---: | :--- | :--- | :---: |
 | **01** | **[In-Memory REST API](./PRODIGY_BD_01_In_Memory_API)** | `Java`, `Spring Boot`, `HashMap`, `Jakarta Validation` | ✅ Completed |
 | **02** | **[MySQL Persistent API](./PRODIGY_BD_02_MySQL_Persistent_API)** | `Spring Data JPA`, `MySQL`, `Flyway`, `HikariCP` | ✅ Completed |
-| **03** | **[JWT-Secured API](./PRODIGY_BD_03_JWT_Auth_API)** | `Spring Security`, `JWT`, `BCrypt`, `Role-Based Access` | ✅ Completed |
 
 ### 📌 Task 01: In-Memory REST API
 A foundational API built from scratch, focusing on core HTTP methods, clean routing, and strict data validation without relying on external databases.
@@ -44,11 +43,6 @@ A foundational API built from scratch, focusing on core HTTP methods, clean rout
 An upgraded, production-ready backend that transitions from temporary memory to a real relational database environment.
 * **Storage:** MySQL Relational Database
 * **Highlights:** Object-Relational Mapping (ORM) via Hibernate, environment variable configurations, connection pooling, and automated schema migrations using **Flyway**.
-
-### 📌 Task 03: JWT Authentication & Authorization
-An enterprise-grade security layer implemented to protect sensitive data and restrict API access based on user roles.
-* **Security:** Stateless Authentication via JSON Web Tokens (JWT)
-* **Highlights:** Custom Security Filter Chains, `BCrypt` password hashing, robust user registration/login endpoints, and Role-Based Access Control (RBAC) to differentiate between standard users and administrators.
 
 ---
 
