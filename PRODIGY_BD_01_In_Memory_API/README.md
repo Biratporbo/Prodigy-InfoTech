@@ -69,4 +69,4 @@ The API handles `User` objects, which include an auto-generated ID, Name, Email,
 
 - 5.Use Postman or cURL to interact with the `/api/users` endpoints.
 
-- *(Note: Because this API uses in-memory storage, all data will be cleared whenever the server restarts.)*
+*(Note: Because this API uses in-memory storage, all data will be cleared whenever the server restarts.)*
