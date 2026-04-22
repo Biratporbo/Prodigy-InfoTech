@@ -3,58 +3,85 @@
   
   <br>
 
-  # 🚀 Prodigy InfoTech - Backend Web Development
+  # 🚀 Prodigy InfoTech: Backend Web Development
   
-  **Showcasing production-ready REST APIs, Database Architecture, and modern Java backend practices.**
+  **An internship portfolio showcasing production-ready REST APIs, Database Architecture, and Advanced Security.**
   
   ![Java](https://img.shields.io/badge/Java_21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
   ![Spring Boot](https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
   ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+  ![Spring Security](https://img.shields.io/badge/Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
 </div>
 
 ---
 
-> **About This Repository** <br>
-> This repository serves as the central hub for the projects completed during my **Backend Web Development Internship** at Prodigy InfoTech. It demonstrates a progressive learning curve from fundamental in-memory data structures to fully persistent, secure, and production-grade database architectures.
+## 🏢 About The Internship
 
-## 📂 Projects Overview
+This repository documents my journey and technical deliverables as a **Backend Web Developer Intern** at **Prodigy InfoTech**. 
 
-### 📌 [Task 01: In-Memory REST API](./PRODIGY_BD_01_In_Memory_API)
-A foundational REST API built from scratch, focusing on core HTTP methods, clean routing, and strict data validation.
-* 🔹 **Architecture:** Stateless REST API
-* 🔹 **Storage:** Thread-safe `ConcurrentHashMap`
-* 🔹 **Highlights:** Custom input validation (`@Valid`), Auto-generated UUIDs, and a Global Exception Handler (`@ControllerAdvice`) for clean, user-friendly error responses instead of server crashes.
+Throughout this internship, I was tasked with bridging the gap between theoretical computer science and practical, real-world backend engineering. The projects below demonstrate a progressive learning curve: moving from fundamental memory structures, to permanent relational database integration, and finally to enterprise-level API security.
 
-### 📌 [Task 02: MySQL Persistent API](./PRODIGY_BD_02_MySQL_Persistent_API)
-An upgraded, production-ready backend that transitions from temporary memory to a real relational database.
-* 🔹 **Architecture:** ORM-driven REST API
-* 🔹 **Storage:** MySQL Relational Database
-* 🔹 **Highlights:** Spring Data JPA integration, HikariCP connection pooling, environment variable configuration, and automated schema migrations using **Flyway**.
+* **Company:** [Prodigy InfoTech](https://prodigyinfotech.dev/)
+* **Role:** Backend Web Developer Intern
+* **Objective:** Design, implement, and deploy robust, secure, and scalable RESTful APIs.
+
+---
+
+## 📂 Internship Task Breakdown
+
+| Task | Project Name | Key Technologies | Status |
+| :---: | :--- | :--- | :---: |
+| **01** | **[In-Memory REST API](./PRODIGY_BD_01_In_Memory_API)** | `Java`, `Spring Boot`, `HashMap`, `Jakarta Validation` | ✅ Completed |
+| **02** | **[MySQL Persistent API](./PRODIGY_BD_02_MySQL_Persistent_API)** | `Spring Data JPA`, `MySQL`, `Flyway`, `HikariCP` | ✅ Completed |
+| **03** | **[JWT-Secured API](./PRODIGY_BD_03_JWT_Auth_API)** | `Spring Security`, `JWT`, `BCrypt`, `Role-Based Access` | ✅ Completed |
+
+### 📌 Task 01: In-Memory REST API
+A foundational API built from scratch, focusing on core HTTP methods, clean routing, and strict data validation without relying on external databases.
+* **Architecture:** Stateless REST API
+* **Highlights:** Custom input validation (`@Valid`), Auto-generated UUIDs, and a Global Exception Handler (`@ControllerAdvice`) for returning clean JSON error responses instead of server crashes.
+
+### 📌 Task 02: MySQL Persistent API
+An upgraded, production-ready backend that transitions from temporary memory to a real relational database environment.
+* **Storage:** MySQL Relational Database
+* **Highlights:** Object-Relational Mapping (ORM) via Hibernate, environment variable configurations, connection pooling, and automated schema migrations using **Flyway**.
+
+### 📌 Task 03: JWT Authentication & Authorization
+An enterprise-grade security layer implemented to protect sensitive data and restrict API access based on user roles.
+* **Security:** Stateless Authentication via JSON Web Tokens (JWT)
+* **Highlights:** Custom Security Filter Chains, `BCrypt` password hashing, robust user registration/login endpoints, and Role-Based Access Control (RBAC) to differentiate between standard users and administrators.
 
 ---
 
 ## 🛠️ Comprehensive Tech Stack
 
-### Core Backend & ORM
+**Core Backend & Frameworks** <br>
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=flat-square&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/spring-%236DB33F.svg?style=flat-square&logo=spring&logoColor=white)
 ![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=flat-square&logo=Hibernate&logoColor=white)
+![Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=flat-square&logo=Apache%20Maven&logoColor=white)
 
-### Database & Tooling
+**Security & Database** <br>
+![JWT](https://img.shields.io/badge/JWT-black?style=flat-square&logo=JSON%20web%20tokens)
+![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white)
 ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=flat-square&logo=mysql&logoColor=white)
 ![Flyway](https://img.shields.io/badge/Flyway-CC0200?style=flat-square&logo=flyway&logoColor=white)
+
+**Tooling & Version Control** <br>
+![VS Code](https://img.shields.io/badge/VS%20Code-0078D4?style=flat-square&logo=visual%20studio%20code&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=flat-square&logo=git&logoColor=white)
 
 ---
 
-## 🤝 Connect With Me
+## 🤝 Let's Connect
 
-<div align="center">
-  <a href="PUT_YOUR_LINKEDIN_URL_HERE">
+I am always open to discussing backend architecture, Java optimization, or full-stack opportunities.
+
+<div align="left">
+  <a href="https://www.linkedin.com/in/birat-dey-b74881281/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
   </a>
-  <a href="PUT_YOUR_GITHUB_URL_HERE">
+  <a href="https://www.github.com/Biratporbo/">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Badge"/>
   </a>
 </div>
