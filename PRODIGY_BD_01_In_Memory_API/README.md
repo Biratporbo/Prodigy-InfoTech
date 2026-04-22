@@ -56,13 +56,13 @@ The API handles `User` objects, which include an auto-generated ID, Name, Email,
 - 2.Clone the repository and navigate to this specific project folder:
 
 ```Bash
-`cd PRODIGY_BD_01_In_Memory_API`
+cd PRODIGY_BD_01_In_Memory_API
 ```
 
 - 3.Run the Spring Boot application using the Maven wrapper:
 
 ```Bash
-`./mvnw spring-boot:run`
+./mvnw spring-boot:run
 ```
 
 - 4.The server will start on `http://localhost:8080`.
