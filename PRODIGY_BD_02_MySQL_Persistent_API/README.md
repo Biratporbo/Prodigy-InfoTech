@@ -61,9 +61,9 @@ The API manages a `users` table automatically generated and tracked by Flyway.
 
 ### Setup Steps
 1. Open MySQL Workbench (or your terminal) and create a blank database:
-   ```sql
+```sql
     CREATE DATABASE user_db;
-   ```
+```
 
 2. Clone the repository and navigate to this project folder:
 ```Bash
@@ -82,6 +82,4 @@ The API manages a `users` table automatically generated and tracked by Flyway.
     ./mvnw spring-boot:run
 ```
 
-5. Flyway will automatically detect the empty database and create the users table for you upon startup! You can now use Postman to send requests to
-
-`http://localhost:8080/api/users`.
+5. Flyway will automatically detect the empty database and create the users table for you upon startup! You can now use Postman to send requests to `http://localhost:8080/api/users`.
